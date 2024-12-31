@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header{
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        header nav ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        header nav ul li{
+            margin-right: 20px;
+        }
+        header nav a{
+            color: #fff;
+            text-decoration: none;
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2em;
+        }
+        .profile{
+            background-color: transparent;
+            padding: 1em;
+            margin-bottom: 20px;
+            /* box-shadow: ; */
+        }
+        h1{
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .profile img{
+            width: 100%;
+            height: 200px;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+        .about{
+            background-color: #f7f7f7;
+            padding: 1em;
+            margin-bottom: 20px;
+        }
+        .about ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .about li{
+            margin-bottom: 10px;
+        }
+        .about strong{
+            font-size: bold;
+            margin-right: 10px;
+        }
+        footer{
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+               <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutme.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="profile">
+            <h1>OMAGHOMI TEMI</h1>
+            
+            <img src="images/circle.JPEG" alt="">
+
+        </div>
+        <div class="about">
+            <h1>ABOUT ME</h1>
+            <p>Hi, i'm temi omas, a junior web developer passionate about harnessing technology to solve real-world problems.i'm looking forward to collaborating with like-minded individuals and pushing the boundaries of what's possible. <br>
+            Also with foundation in HTML, CSS and little of Javascript, i'm ready to bring my skills to the table.</p>
+            <ul>
+                <li><strong>NAME:</strong>TEMI OMAS</li>
+                <li><strong>OCCUPATION:</strong>JUNIOR WEB DEVELOPER</li>
+                <li><strong>LOCATION:</strong>LAGOS, NIGERIA</li>
+
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;TEMI OMAS profile page</p>
+    </footer>
+</body>
+</html>
